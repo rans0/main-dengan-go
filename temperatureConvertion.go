@@ -32,6 +32,10 @@ func KtoFahrenheit(t Kelvin) Fahrenheit {
 	return Fahrenheit((t-273.15)*9/5+32)
 }
 
+func KtoCelsius(t Kelvin) Celsius {
+	return Celsius(t-273.15)
+}
+
 func main() {
 
 	var Fahrenheit Fahrenheit = 100
@@ -39,14 +43,16 @@ func main() {
 	var Kelvin Kelvin = 100
 
 	// set fahrenheit convertion from
-	//tempFahr := CtoFahrenheit(Celsius)
-	//fmt.Printf("%.2f C is equal to %.2f F\n", Celsius, tempFahr)
-	tempFahr := KtoFahrenheit(Kelvin)
-	fmt.Printf("%.2f K is equal to %.2f F\n", Kelvin, tempFahr)
+	tempFahr := CtoFahrenheit(Celsius)
+	fmt.Printf("%.2f C is equal to %.2f F\n", Celsius, tempFahr)
+	//tempFahr := KtoFahrenheit(Kelvin)
+	//fmt.Printf("%.2f K is equal to %.2f F\n", Kelvin, tempFahr)
 
 	// set celsius convertion from
-	tempCelsius := FtoCelcius(Fahrenheit)
-	fmt.Printf("%.2f F is equal to %.2f C\n", Fahrenheit, tempCelsius)
+	//tempCelsius := FtoCelcius(Fahrenheit)
+	//fmt.Printf("%.2f F is equal to %.2f C\n", Fahrenheit, tempCelsius)
+	tempCelsius := KtoCelsius(Kelvin)
+	fmt.Printf("%.2f K is equal to %.2f C\n", Kelvin, tempCelsius)
 
 	// set kelvin convertion from
 	//tempKelvin := CtoKelvin(Celsius)
