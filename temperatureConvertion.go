@@ -42,6 +42,10 @@ func main() {
 	var Celsius Celsius = 100
 	var Kelvin Kelvin = 100
 
+	/*
+		comment before/after line if you want to uncomment set convertion
+	*/
+
 	// set fahrenheit convertion from
 	tempFahr := CtoFahrenheit(Celsius)
 	fmt.Printf("%.2f C is equal to %.2f F\n", Celsius, tempFahr)
@@ -59,9 +63,5 @@ func main() {
 	//fmt.Printf("%.2f C is equal to %.2f K\n", Celsius, tempKelvin)
 	tempKelvin := FtoKelvin(Fahrenheit)
 	fmt.Printf("%.2f F is equal to %.2f K\n", Fahrenheit, tempKelvin)
-
-
-
-
 
 }
