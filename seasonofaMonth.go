@@ -20,6 +20,10 @@ func Season(month int) string {
 }
 
 func main() {
-	var month int = 10
-	fmt.Println(Season(month))
+
+	for i := 1; i <=13; i++ {
+		month := i
+		fmt.Println(Season(month))
+	}
+
 }
