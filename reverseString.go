@@ -15,6 +15,8 @@ func reverse(s string) string {
 }
 
 func main() {
-	arr := "Google"
-	fmt.Println(reverse(arr))
+	arr := [...]string{"google", "checking", "login", "golang", "javascirpt"}
+	for _, string := range arr {
+		fmt.Println(reverse(string))
+	}
 }
