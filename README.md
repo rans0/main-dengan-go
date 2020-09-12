@@ -1,5 +1,5 @@
 # main-dengan-go
-:boom::boom::boom:
+catatan perjalanan belajar go :kiss: :boom: :fire:
 
 ## Temparature Convertion [Go](https://github.com/rans0/main-dengan-go/blob/master/temperatureConvertion.go)
 * data types
