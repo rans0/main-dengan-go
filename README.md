@@ -70,3 +70,8 @@ List of pass challenge using go :punch: :grin: :fire:
 * Reslicing
 * Applying Strings, Arrays and Slice
 
+## How To Use
+- move to your gopath
+- git clone https://github.com/rans0/main-dengan-go.git
+- cd main-dengan-go
+- `go run <name of file>.go`
