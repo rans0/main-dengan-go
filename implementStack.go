@@ -32,7 +32,7 @@ func (st *Stack) Pop() int {
 	return -1
 }
 
-func (st *Stack) String() string {
+func (st Stack) String() string {
 	str := ""
 	for ix:=0; ix < st.ix; ix++ {
 		str += "[" + strconv.Itoa(ix) + ":" + strconv.Itoa(st.data[ix])  + "] "
