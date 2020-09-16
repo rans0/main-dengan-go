@@ -6,8 +6,7 @@ import (
 )
 
 type Person struct {
-	firstName string
-	lastName  string
+	firstName, lastName string
 }
 
 type Persons []Person
