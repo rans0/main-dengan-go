@@ -3,6 +3,9 @@ catatan perjalanan belajar go :kiss: :boom: :fire:
 
 # Challange
 List of pass challenge using go :punch: :grin: :fire:
+
+---
+
 ### Temparature Convertion [Go](https://github.com/rans0/main-dengan-go/blob/master/temperatureConvertion.go)
 * data types
 * variables
@@ -69,6 +72,25 @@ List of pass challenge using go :punch: :grin: :fire:
 ### Reverse string [Go](https://github.com/rans0/main-dengan-go/blob/master/reverseString.go)
 * Reslicing
 * Applying Strings, Arrays and Slice
+
+### Find the days in map [Go](https://github.com/rans0/main-dengan-go/blob/master/mapTheDays.go)
+
+### Construct double linked list [Go](https://github.com/rans0/main-dengan-go/blob/master/constructDoubleLinkedList.go)
+
+### Anonymous struct [Go](https://github.com/rans0/main-dengan-go/blob/master/anonymousStruct.go)
+
+### Coordinates of point [Go](https://github.com/rans0/main-dengan-go/blob/master/coordinatesOfAPoint.go)
+
+### Make a rectangle [Go](https://github.com/rans0/main-dengan-go/blob/master/makeARectangle.go)
+
+### Implement stack data sturcture [Go](https://github.com/rans0/main-dengan-go/blob/master/implementStack.go)
+
+### Implement interface [Go](https://github.com/rans0/main-dengan-go/blob/master/simpleInterface.go)
+
+### Advance shape analysis [Go](https://github.com/rans0/main-dengan-go/blob/master/advanceShape.go)
+
+
+---
 
 ## How To Use
 - move to your gopath
