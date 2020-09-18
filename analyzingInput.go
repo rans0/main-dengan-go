@@ -10,7 +10,7 @@ import (
 var nrchar, nrword, nrline int
 
 func main() {
-	nrchar, nrword, nrline := 0, 0, 0
+	nrchar, nrword, nrline = 0, 0, 0
 	inputReader := bufio.NewReader(os.Stdin)
 	fmt.Println("Please enter some input, type S for stop program")
 
@@ -21,7 +21,7 @@ func main() {
 			fmt.Printf("an error occured: %s\n", err)
 			return
 		}
-		if input == "S\\r\\n" {
+		if input == "S\r\n" {
 			fmt.Println("Here are the count")
 			fmt.Printf("Number of character is %d\n", nrchar)
 			fmt.Printf("Number of words is %d\n", nrword)
