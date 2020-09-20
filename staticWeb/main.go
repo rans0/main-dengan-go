@@ -144,12 +144,25 @@ func FormServer(w http.ResponseWriter, request *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", HelloServer)
-	http.HandleFunc("/simple", SimpleServer)
-	http.HandleFunc("/form", FormServer)
-	http.HandleFunc("/calculate", CalculateServer)
+	http.HandleFunc("/", logPanics(HelloServer))
+	http.HandleFunc("/simple", logPanics(SimpleServer))
+	http.HandleFunc("/form", logPanics(FormServer))
+	http.HandleFunc("/calculate", logPanics(CalculateServer))
 	err := http.ListenAndServe("localhost:3000", nil)
 	if err != nil {
-		log.Fatal("ListenAndServe:", err.Error())
+		panic(err)
+	}
+}
+
+type HandleFnc func(http.ResponseWriter, *http.Request)
+
+func logPanics(fc HandleFnc) HandleFnc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		defer func() {
+			if x:= recover(); x != nil {
+				log.Printf("[%v] caught panic: %v", r.RemoteAddr, x)
+			}
+		}()
+		fc(w, r)
 	}
 }
