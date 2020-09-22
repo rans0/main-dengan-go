@@ -29,4 +29,8 @@ func main() {
 		fmt.Println(<-myIntChannel2)
 	}
 
+	myIntBuffer := make(chan int, 2)
+	myIntBuffer <- 10
+	fmt.Println(<-myIntBuffer)
+
 }
