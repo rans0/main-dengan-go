@@ -17,10 +17,11 @@ func (s *smtpServer) serverName() string{
 
 func main() {
 	// sender data
-	from := "" // your email
-	passApp := "" // your password app
+	from := "kharansyah1@gmail.com"
+	passApp := "migezuxnqwyblzsl"
 	// receiver email address
 	to := []string {
+		"kharansyah.thawaddu@student.umn.ac.id",
 		"rizkyzaldi@gmail.com",
 		"wannabstart2020@gmail.com",
 		"gerysantos03@gmail.com",
