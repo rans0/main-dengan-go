@@ -89,6 +89,39 @@ List of pass challenge using go :punch: :grin: :fire:
 
 ### Advance shape analysis [Go](https://github.com/rans0/main-dengan-go/blob/master/advanceShape.go)
 
+### Sort People [Go](https://github.com/rans0/main-dengan-go/tree/master/sortPeople)
+
+### Min [Go](https://github.com/rans0/main-dengan-go/tree/master/min)
+
+### Make Stack [Go](https://github.com/rans0/main-dengan-go/tree/master/makeStack)
+
+### Analyzing input [Go](https://github.com/rans0/main-dengan-go/blob/master/analyzingInput.go)
+
+### Read Csv [Go](https://github.com/rans0/main-dengan-go/tree/master/readCSV)
+
+### Write Wiki Page [Go](https://github.com/rans0/main-dengan-go/tree/master/writeWikiPage)
+
+### Static Web [Go](https://github.com/rans0/main-dengan-go/tree/e04897f782e0166c98f48173a4ee41f8607f0723/staticWeb)
+
+### Web App Serve Guest [Go](https://github.com/rans0/main-dengan-go/tree/master/webAppServeGuest)
+
+### Connect RPC in Go [Go](https://github.com/rans0/main-dengan-go/tree/master/connRPCinGO)
+
+### Sending Mail STMP [Go](https://github.com/rans0/main-dengan-go/tree/master/sendingMailSMTP)
+
+### Go In The Cloud [Go](https://github.com/rans0/main-dengan-go/tree/master/goInTheCloud)
+
+### Channeling & Buffer In Go [Go](https://github.com/rans0/main-dengan-go/blob/master/channellGo.go)
+
+### Merge Sort Using Channel [Go](https://github.com/rans0/main-dengan-go/blob/master/mergeSort.go)
+
+### Buzz Game [Go](https://github.com/rans0/main-dengan-go/blob/master/buzzGame.go)
+
+### Multiplication Table [Go](https://github.com/rans0/main-dengan-go/blob/master/multiplicationTable.go)
+
+### Implement Mutex [Go](https://github.com/rans0/main-dengan-go/blob/master/mutexInGo.go)
+
+### Generator Pattern [Go](https://github.com/rans0/main-dengan-go/blob/master/generatorPattern.go)
 
 ---
 
